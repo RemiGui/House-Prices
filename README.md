@@ -70,7 +70,7 @@
   	<li> 
 		index_strings.py :
 		<ul>
-		<li> Stores in an array all diffrent strings from a column </li> 
+		<li> Stores in an array all columns index data_preprocessing.py has to manage </li> 
 		<li> Used in converting_data.py </li> 
 		</ul>
 	</li>
