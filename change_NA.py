@@ -6,7 +6,7 @@ def change_NA(matrix):
     :param matrix: Matrix
     :return: Change 'NA' into 'O' in input matrix
     """
-    for i in range(len(matrix[0])):
-        for j in range(len(matrix)):
-            if pd.isnull(matrix[j, i]):
-                matrix[j, i] = '0'
+    for line in range(len(matrix)):
+        for column in range(len(matrix[0])):
+            if pd.isnull(matrix[line, column]):
+                matrix[line, column] = '0'
