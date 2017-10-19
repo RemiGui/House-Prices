@@ -13,7 +13,7 @@
 <ul>
 <li> Decision tree : 0.175 </li>
 <li> SVM : 0.279 </li>
-<li> Linear regression : 0.309 </li>
+<li> Logistic regression : 0.309 </li>
 </ul>
 
 
