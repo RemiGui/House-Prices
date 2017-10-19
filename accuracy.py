@@ -10,8 +10,8 @@ def accuracy(prediction, validation):
     """
     sum_gap_avg = 0.0
     sum_avg = 0.0
-    for i in range(len(validation)):
-        sum_gap_avg += np.absolute(prediction[i] - validation[i])
-        sum_avg += prediction[i]
+    for line in range(len(validation)):
+        sum_gap_avg += np.absolute(prediction[line] - validation[line])
+        sum_avg += prediction[line]
 
     return sum_gap_avg / sum_avg
