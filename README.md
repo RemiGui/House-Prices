@@ -5,7 +5,16 @@
 
 <p> python main.py -T train.csv -t test.csv -v sample_submission.csv -a decision tree </p>
 
-<p> It will run the best accuracy (around 17%) </p>
+<p> It will run the best accuracy </p>
+
+
+<h3> Algorithms accuracy (average gap divided by average price) : </h3>
+
+<ul>
+<li> Decision tree : 0.175 </li>
+<li> SVM : 0.279 </li>
+<li> Linear regression : 0.309 </li>
+</ul>
 
 
 
